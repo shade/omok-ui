@@ -2,10 +2,10 @@
 .OMOK:
 
 build:
-	qmake -makefile -o ./src/makefile
+	qmake -makefile -o ./src/Makefile
 	make -C ./src
 
 debug:
-	qmake -makefile -o ./src/makefile
+	qmake -makefile -o ./src/Makefile
 	make -C ./src
 	./bin/Omok
