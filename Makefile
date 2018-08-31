@@ -4,3 +4,8 @@
 build:
 	qmake -makefile -o ./src/makefile
 	make -C ./src
+
+debug:
+	qmake -makefile -o ./src/makefile
+	make -C ./src
+	./bin/Omok
