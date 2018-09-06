@@ -9,3 +9,7 @@ debug:
 	qmake -makefile -o ./src/Makefile
 	make -C ./src
 	./bin/Omok
+
+clean:
+	rm -rf bin
+	rm -rf obj

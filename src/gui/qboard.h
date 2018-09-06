@@ -1,15 +1,16 @@
 #ifndef QBOARD_H
 #define QBOARD_H
 
+#include <QGridLayout>
 #include <QWidget>
 
-class QBoard: public QWidget
-{
-public: 
-    explicit QBoard(QWidget *parent);
-    ~QBoard();
-private:
-};
+#include "gui/qtile.h"
 
+class QBoard: public QWidget {
+public:
+    QBoard(QWidget* parent);
+    ~QBoard();
+    QGridLayout* layout;
+};
 
 #endif

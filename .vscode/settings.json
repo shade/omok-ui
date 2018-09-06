@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "qframe": "cpp",
+        "qapplication": "cpp"
+    }
+}

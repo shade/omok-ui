@@ -1,18 +1,13 @@
-#include <QtGui>
 #include <QApplication>
 #include <iostream>
 
-#include "gui/qboard.h"
+#include "gui/window.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
-    QWidget window;
-    window.resize(918,570);
+    Window window;
     window.show();
-    window.setWindowTitle(
-        QApplication::translate("toplevel", "Omok UI"));
 
     return a.exec();
 }

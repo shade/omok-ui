@@ -10,7 +10,11 @@ DESTDIR=../bin
 OBJECTS_DIR=../obj
 MOC_DIR=../obj
 
-HEADERS += src/gui/qboard.h
+HEADERS += src/gui/window.h \
+    src/gui/qtile.h \
+    src/gui/qboard.h
 SOURCES += src/main.cpp \
+    src/gui/window.cpp \
+    src/gui/qtile.cpp \
     src/gui/qboard.cpp
 
