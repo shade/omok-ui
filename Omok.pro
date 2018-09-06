@@ -13,6 +13,7 @@ MOC_DIR=../obj
 HEADERS += src/gui/window.h \
     src/gui/qtile.h \
     src/gui/qboard.h
+
 SOURCES += src/main.cpp \
     src/gui/window.cpp \
     src/gui/qtile.cpp \
