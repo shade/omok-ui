@@ -1,13 +1,12 @@
 #include <QApplication>
-#include <iostream>
-
-#include "gui/window.h"
+#include <QQmlApplicationEngine>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Window window;
-    window.show();
+    QApplication app(argc, argv);
+    
+    QQmlApplicationEngine engine;
+    engine.load(QUrl(QStringLiteral("qrc:///qml/main.qml")));
 
-    return a.exec();
+    return app.exec();
 }
