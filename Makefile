@@ -8,7 +8,7 @@ build:
 debug:
 	qmake -makefile -o ./src/Makefile
 	make -C ./src
-	./bin/Omok
+	./bin/OmokUI
 
 clean:
 	rm -rf bin

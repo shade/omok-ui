@@ -1,4 +1,4 @@
-TARGET = Omok
+TARGET = OmokUI
 TEMPLATE = app
 
 QT += qml quick widgets
