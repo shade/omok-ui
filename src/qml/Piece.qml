@@ -1,12 +1,16 @@
 import QtQuick 2.5
 import QtQuick.Controls 1.0
 
+
 Rectangle {
-    id: circle
-    height: 25
-    width: 25
-    border.color: 'black'
-    radius: 15
-    anchors.left: leftCircle.right
-    anchors.top: topCircle.bottom
+    height: 28
+    width: 28
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.topMargin: 3
+    anchors.leftMargin: 3
+    radius: 20
+    border.width: 1
+    border.color: "#FFFFFF"
+    color: "#11000000"
 }

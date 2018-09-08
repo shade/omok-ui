@@ -7,6 +7,8 @@ Rectangle {
     height: 34
     border.width: 0
     color: "#11FFFFFF"
+    radius: 3
+    Piece {}
     MouseArea {
         cursorShape: Qt.PointingHandCursor
         anchors.fill: parent
