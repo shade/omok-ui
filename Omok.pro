@@ -11,5 +11,5 @@ OBJECTS_DIR=../obj
 MOC_DIR=../obj
 
 HEADERS +=
-SOURCES += src/main.cpp 
+SOURCES += src/main.cpp
 RESOURCES += src/qml.qrc
