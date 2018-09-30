@@ -4,7 +4,7 @@ import QtGraphicalEffects 1.0
 
 ApplicationWindow {
     id: root
-    width: 1000
+    width: 600
     height: 600
     visible: true
     color: "#22283D"

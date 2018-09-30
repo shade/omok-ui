@@ -12,5 +12,5 @@ Rectangle {
     radius: 20
     border.width: 1
     border.color: "#FFFFFF"
-    color: "#11000000"
+    color: "#44FFFFFF"
 }
