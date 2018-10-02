@@ -8,11 +8,16 @@ Rectangle {
     border.width: 0
     color: "#11FFFFFF"
     radius: 3
-    Piece {}
+    property var type: null
     MouseArea {
         cursorShape: Qt.PointingHandCursor
         anchors.fill: parent
         onClicked: {
+            if (parent.type == null) {
+                parent.type = "black"
+                Qt.createComponent("Piece.qml").createObject(tile);
+                return;
+            }
         }
     }
 }
